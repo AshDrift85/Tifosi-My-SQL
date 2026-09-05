@@ -14,7 +14,7 @@ CREATE DATABASE tifosi
 -- -----------------------------------------------------------------
 -- 2. UTILISATEUR DEDIE A L'ADMINISTRATION DE LA BASE
 -- -----------------------------------------------------------------
--- Remplacer 'MotDePasseFort_123!' par un mot de passe robuste avant
+-- Remplacer 'CHANGE_ME_BEFORE_USE' par un mot de passe robuste avant
 -- toute mise en production. Ne jamais committer un vrai mot de passe
 -- dans un dépôt public : utiliser une variable d'environnement ou un
 -- fichier .env ignoré par Git.
