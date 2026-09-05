@@ -19,7 +19,7 @@ CREATE DATABASE tifosi
 -- dans un dépôt public : utiliser une variable d'environnement ou un
 -- fichier .env ignoré par Git.
 DROP USER IF EXISTS 'tifosi'@'localhost';
-CREATE USER 'tifosi'@'localhost' IDENTIFIED BY 'MotDePasseFort_123!';
+CREATE USER 'tifosi'@'localhost' IDENTIFIED BY 'CHANGE_ME_BEFORE_USE';
 
 -- Droits complets, mais limités à la base tifosi uniquement
 -- (principe de moindre privilège : pas de droits globaux/serveur).
